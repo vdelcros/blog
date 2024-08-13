@@ -28,4 +28,4 @@ content:
       - { name: date, label: Date, type: date }
       - { name: cover, label: Cover image, type: image }
       - { name: body, label: Body, type: rich-text }
-      - { name: links, label: Links, type: exercise }
+      - { name: links, label: Links, list: true, type: object }
